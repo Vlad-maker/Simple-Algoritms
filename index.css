@@ -57,7 +57,7 @@
     margin: 5px;
 }
 .button:hover {
-    background: #7a90c2;
+    background: #858586;
     transition: 0.2s;
     transform: scale(1.02);
 } 
