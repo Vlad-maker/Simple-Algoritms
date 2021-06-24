@@ -1,0 +1,76 @@
+@import url(./vendor/fonts.css);
+
+.body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    background-color: #404040;
+    min-width: 320px;
+    margin: 0 auto;
+}
+.header {
+  font-family: 'Montserrat', Arial, sans-serif;
+  display: inline-block;
+  margin: 0 auto;
+  color:azure;
+  text-align: center;
+  animation: fadeOut infinite; 
+  animation-duration: 4s;
+}
+.result__block{
+    max-width: 720px;
+    margin: 30px auto;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color:azure;
+    word-wrap: break-word;
+}
+.result {
+    max-width: 720px;
+}
+.form__fieldset {
+    display: flex;
+    flex-direction: column;
+    max-width: 720px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+.input__text {
+    margin: 0 auto;
+    min-width: 420px;
+}
+.buttons {
+    margin: 5px auto;
+    max-width: 710px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.button {
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    width: 125px;
+    margin: 5px;
+}
+.button:hover {
+    background: #7a90c2;
+    transition: 0.2s;
+    transform: scale(1.02);
+} 
+@media screen and (max-width: 425px) {
+    .result__block{
+        font-size: 16px;
+        margin-left: 40px;
+    }
+    .input__text {
+        width: 300px;
+    }
+    .form__fieldset {
+        max-width: 310px;
+    }
+} 
+
