@@ -16,7 +16,7 @@ buttonPalindrom.addEventListener('click', (event) => {
     event.preventDefault();
 });
 
-//Эффективное выявление полиндрома
+//Эффективное выявление палиндрома
 function isPalindromeEffectiveSolution(str) {
     let left = 0,
     right = str.length - 1;
@@ -34,7 +34,7 @@ buttonPalindromEffective.addEventListener('click', (event) => {
     event.preventDefault();
 });
 
-//Фибоначи
+//Фибоначчи
 function computeFibonacciElement(n) {
     if (n <= 2) return 1;
     const f = [0, 1, 1];
