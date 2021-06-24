@@ -1,14 +1,13 @@
+@import url(./vendor/normalize.css);
 @import url(./vendor/fonts.css);
 
 .body {
     display: flex;
     flex-direction: column;
-    max-width: 700px;
-    background-color: #404040;
+    max-width: 80vw;
+    background-color: #5a5a5a;
     margin: 0 auto;
-    padding: 0;
 }
-
 .header {
     font-family: 'Montserrat', Arial, sans-serif;
     display: inline-block;
@@ -20,22 +19,22 @@
 }
 
 .result__block{
-    max-width: 720px;
+    max-width: 50vw;
     margin: 30px auto;
     font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 26px;
     color:azure;
     word-wrap: break-word;
 }
 .result {
-    max-width: 720px;
+    max-width: 80vw;
 }
 .form {
-    max-width: 730px;
+    max-width: 80vw;
 }
 .form__fieldset {
-    max-width: 90vw;
+    max-width: 50vw;
     display: flex;
     flex-direction: column;
     margin: 30px auto;
@@ -45,13 +44,14 @@
 }
 .input__text {
     margin: 0 auto;
-    min-width: 420px;
+    max-width: 80vw;
+    font-size: 24px;
 }
 .buttons {
     margin: auto;
-    max-width: 710px;
+    max-width: 80vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -59,61 +59,16 @@
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    height: 25px;
-    width: 125px;
+    height: 50px;
+    width: 190px;
     margin: 5px;
+    font-size: 26px;
 }
 .button:hover {
     background: #858586;
     transition: 0.2s;
     transform: scale(1.02);
 } 
-@media screen and (max-width: 828px) {
-    .header {
-        font-size: 48px;
-    }
-    .result__block{
-        font-size: 30px;
-        margin-left: 40px;
-        max-width: 590px;
-        margin: 10px auto 0;
-    }
-    .input__text {
-        padding: 0;
-        margin-top: 10px;
-        width: 510px;
-        height: 30px;
-        font-size: 26px;
-    }
-    .button {
-        height: 50px;
-        width: 169px;
-        margin: 15px 3px;
-        font-size: 26px;
-    }
-    .form__fieldset {
-        margin: 20px auto 0;
-        max-width: 690px;
-    }
-    .body {
-        width:700px;
-        overflow-x:hidden;
-        margin: 0 auto;
-    }
-    .button__palindrom_effective {
-        font-size: 20px;
-    }
-}
-/* @media screen and (max-width: 425px) {
-    .result__block{
-        font-size: 16px;
-        margin-left: 40px;
-    }
-    .input__text {
-        width: 300px;
-    }
-    .form__fieldset {
-        max-width: 310px;
-    }
-}  */
+
+
 
