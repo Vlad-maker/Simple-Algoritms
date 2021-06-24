@@ -61,6 +61,29 @@
     transition: 0.2s;
     transform: scale(1.02);
 } 
+@media screen and (max-width: 828px) {
+    .header {
+        font-size: 48px;
+    }
+    .result__block{
+        font-size: 30px;
+        margin-left: 40px;
+    }
+    .input__text {
+        width: 640px;
+        height: 30px;
+        font-size: 26px;
+    }
+    .button {
+        height: 50px;
+        width: 179px;
+        margin: 10px 5px;
+        font-size: 26px;
+    }
+    .button__palindrom_effective {
+        font-size: 20px;
+    }
+}
 @media screen and (max-width: 425px) {
     .result__block{
         font-size: 16px;
