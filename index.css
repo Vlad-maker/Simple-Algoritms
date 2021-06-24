@@ -9,13 +9,13 @@
     margin: 0 auto;
 }
 .header {
-  font-family: 'Montserrat', Arial, sans-serif;
-  display: inline-block;
-  margin: 0 auto;
-  color:azure;
-  text-align: center;
-  animation: fadeOut infinite; 
-  animation-duration: 4s;
+    font-family: 'Montserrat', Arial, sans-serif;
+    display: inline-block;
+    margin: 0 auto;
+    color:azure;
+    text-align: center;
+    animation: fadeOut infinite; 
+    animation-duration: 4s;
 }
 .result__block{
     max-width: 720px;
@@ -30,9 +30,9 @@
     max-width: 720px;
 }
 .form__fieldset {
+    max-width: 826px;
     display: flex;
     flex-direction: column;
-    max-width: 720px;
     margin: 30px auto;
     border-radius: 5px;
 }
@@ -68,6 +68,8 @@
     .result__block{
         font-size: 30px;
         margin-left: 40px;
+        max-width: 690px;
+        margin: 0 auto;
     }
     .input__text {
         width: 640px;
@@ -76,12 +78,21 @@
     }
     .button {
         height: 50px;
-        width: 179px;
+        width: 169px;
         margin: 10px 5px;
         font-size: 26px;
     }
     .button__palindrom_effective {
-        font-size: 20px;
+        font-size: 19px;
+    }
+    .form__fieldset {
+        margin: 0 auto;
+        max-width: 690px;
+    }
+    .body {
+        max-width: 828px;
+        margin: 0;
+        overflow-x: hidden;
     }
 }
 @media screen and (max-width: 425px) {
