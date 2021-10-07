@@ -9,6 +9,7 @@ let result = document.querySelector('.result');
 
 //Палиндром
 function isPalindrome(str) {
+    str = str.toLowerCase()
     return str === str.split('').reverse().join('');
 }
 buttonPalindrom.addEventListener('click', (event) => {
